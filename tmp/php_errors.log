@@ -1,0 +1,519 @@
+[21-Feb-2021 19:28:02 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 19:41:33 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 19:41:56 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\install.php on line 16
+[21-Feb-2021 19:44:10 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\install.php on line 16
+[21-Feb-2021 19:44:22 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\install.php on line 16
+[21-Feb-2021 19:58:32 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\install.php on line 16
+[21-Feb-2021 19:58:32 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 19:58:32 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\install.php:0
+[21-Feb-2021 20:11:27 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 20:11:27 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 20:11:27 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 20:11:27 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:2
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:2
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:02 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:10 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:20 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:54:50 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:55:55 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:56:17 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:57:26 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:58:36 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP Warning:  require(C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php): failed to open stream: No such file or directory in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer/../../app/lib/helpers/Helpers.php' (include_path='C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/ole;C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor/pablodalloglio/spreadsheet_excel_writer;.;C:\php\pear') in C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php on line 70
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   2. require_once() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:2
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   3. require() C:\Users\tasil\OneDrive\projetos\sursum_dfe\init.php:10
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   4. ComposerAutoloaderInit9ca02ded2ffb55c884817c3c88c86343::getLoader() C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\autoload.php:7
+[21-Feb-2021 21:59:35 America/Sao_Paulo] PHP   5. composerRequire9ca02ded2ffb55c884817c3c88c86343($fileIdentifier = '847d46fd5abed165a63beee793aecd21', $file = 'C:\\Users\\tasil\\OneDrive\\projetos\\sursum_dfe\\vendor\\composer/../../app/lib/helpers/Helpers.php') C:\Users\tasil\OneDrive\projetos\sursum_dfe\vendor\composer\autoload_real.php:60
+[21-Feb-2021 22:00:02 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 22:00:02 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:00:02 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 22:00:02 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'order' in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 270
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   4. ParametrosAcbrFormList->__construct(['class' => 'ParametrosAcbrFormList', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   5. ParametrosAcbrFormList->show('<h1>TESTE</h1>') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:129
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   6. ParametrosAcbrFormList->onReload($param = '<h1>TESTE</h1>') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:340
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'direction' in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 275
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   4. ParametrosAcbrFormList->__construct(['class' => 'ParametrosAcbrFormList', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   5. ParametrosAcbrFormList->show('<h1>TESTE</h1>') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:129
+[21-Feb-2021 22:06:21 America/Sao_Paulo] PHP   6. ParametrosAcbrFormList->onReload($param = '<h1>TESTE</h1>') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:340
+[21-Feb-2021 22:14:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type ParametrosAcbr as array in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:46
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): ParametrosAcbrFormList->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:14:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type ParametrosAcbr as array in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:46
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): ParametrosAcbrFormList->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:15:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type ParametrosAcbr as array in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:46
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): ParametrosAcbrFormList->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:15:22 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 22:15:22 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:15:22 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 22:15:22 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 22:15:23 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 22:15:23 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:15:23 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 22:15:23 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 22:15:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type ParametrosAcbr as array in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php:46
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): ParametrosAcbrFormList->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:15:53 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 22:15:53 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:15:53 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 22:15:53 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 22:17:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:17:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\acbr\ParametrosAcbrFormList.php on line 46
+[21-Feb-2021 22:44:03 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[21-Feb-2021 22:44:03 America/Sao_Paulo] PHP Stack trace:
+[21-Feb-2021 22:44:03 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[21-Feb-2021 22:44:03 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[21-Feb-2021 22:48:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method ParametrosAcbr::toString() in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:13
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 13
+[22-Feb-2021 10:25:27 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[22-Feb-2021 10:25:27 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 10:25:27 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[22-Feb-2021 10:25:27 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 23
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[22-Feb-2021 10:45:23 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 25
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[22-Feb-2021 10:48:43 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 25
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[22-Feb-2021 10:50:06 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[22-Feb-2021 20:27:44 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[22-Feb-2021 20:27:44 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 20:27:44 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[22-Feb-2021 20:27:44 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[22-Feb-2021 20:27:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:38
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 38
+[22-Feb-2021 20:27:56 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[22-Feb-2021 20:27:56 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 20:27:56 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[22-Feb-2021 20:27:56 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[22-Feb-2021 20:28:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:38
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 38
+[22-Feb-2021 20:29:10 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[22-Feb-2021 20:29:10 America/Sao_Paulo] PHP Stack trace:
+[22-Feb-2021 20:29:10 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:0
+[22-Feb-2021 20:29:10 America/Sao_Paulo] PHP   2. Adianti\Core\AdiantiTemplateParser::parse($content = '<!DOCTYPE html>\n<html>\n  <head>\n    <title>Sursum DF-e</title>\n    <meta charset="utf-8">\n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    <link rel="manifest" href="manifest.json?appver=701">\n    <!-- Tell the browser to be responsive to screen width -->\n    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">\n    <link rel="apple-touch-icon" sizes="180x180" href="app/images/icon.png">\n    <meta name="apple-mobile-web-app-capable" co') C:\Users\tasil\OneDrive\projetos\sursum_dfe\index.php:38
+[22-Feb-2021 20:29:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:38
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 38
+[22-Feb-2021 20:29:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Monolog\Logger' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:38
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 38
+[23-Feb-2021 10:28:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(15): TransacaoService::getUltId()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 11
+[23-Feb-2021 10:28:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(15): TransacaoService::getUltId()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 11
+[23-Feb-2021 10:29:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(15): TransacaoService::getUltId()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 11
+[23-Feb-2021 10:29:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(15): TransacaoService::getUltId()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 11
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP Stack trace:
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   5. ParametrosAcbrService::getFormaIntegracao() C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:17
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP   6. ParametrosAcbrService::getVlParamAcbr($codParam = 'forma_integracao', $vlPadrao = 'arquivo') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php:21
+[23-Feb-2021 10:34:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Acbr' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:18
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP Stack trace:
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   5. ParametrosAcbrService::getFormaIntegracao() C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:17
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP   6. ParametrosAcbrService::getVlParamAcbr($codParam = 'forma_integracao', $vlPadrao = 'arquivo') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php:21
+[23-Feb-2021 10:34:35 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'Acbr' not found in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:18
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#3 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP Stack trace:
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   5. ParametrosAcbrService::getFormaIntegracao() C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:17
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP   6. ParametrosAcbrService::getVlParamAcbr($codParam = 'forma_integracao', $vlPadrao = 'arquivo') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php:21
+[23-Feb-2021 10:37:07 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Acbr::__construct() must implement interface Iacbr, null given, called in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18 and defined in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct(NULL, 1)
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 11
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP Stack trace:
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   5. ParametrosAcbrService::getFormaIntegracao() C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:17
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP   6. ParametrosAcbrService::getVlParamAcbr($codParam = 'forma_integracao', $vlPadrao = 'arquivo') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php:21
+[23-Feb-2021 10:38:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setCmd() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:19
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(19): Acbr->setCmd('IBGE.BuscarPorC...')
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct(Array)
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run('0')
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 19
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP Stack trace:
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   1. {main}() C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:0
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   2. TApplication::run($debug = *uninitialized*) C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:79
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   3. Adianti\Core\AdiantiCoreApplication::run($debug = '0') C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php:27
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   4. TesteController->__construct($param = ['class' => 'TesteController', 'method' => 'onShow']) C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php:80
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   5. ParametrosAcbrService::getFormaIntegracao() C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php:17
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP   6. ParametrosAcbrService::getVlParamAcbr($codParam = 'forma_integracao', $vlPadrao = 'arquivo') C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php:21
+[23-Feb-2021 10:50:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'Iacbr' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 8
+[23-Feb-2021 11:18:48 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:18:48 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Acbr::__construct() must implement interface Iacbr, null given, called in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18 and defined in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:9
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 9
+[23-Feb-2021 11:19:33 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:19:33 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Typed property Acbr::$acbr must be an instance of Iacbr, null used in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:11
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 11
+[23-Feb-2021 11:46:21 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:46:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setCmd() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:17
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(19): Acbr->setCmd()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 17
+[23-Feb-2021 11:47:44 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:47:44 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 39
+[23-Feb-2021 11:47:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setCmd() on null in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:17
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(19): Acbr->setCmd()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 17
+[23-Feb-2021 11:50:10 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:50:10 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 39
+[23-Feb-2021 11:50:10 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 11:50:10 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 11:58:28 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 11:58:28 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 39
+[23-Feb-2021 11:58:28 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Acbr::__construct() must implement interface Iacbr, null given, called in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18 and defined in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:9
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 9
+[23-Feb-2021 12:03:19 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 12:03:19 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 39
+[23-Feb-2021 12:03:19 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Acbr::__construct() must be an object, null given, called in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18 and defined in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:9
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 9
+[23-Feb-2021 12:05:15 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 12:05:15 America/Sao_Paulo] PHP Notice:  Undefined variable: obj in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 39
+[23-Feb-2021 12:05:15 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Acbr::__construct() must be an object, null given, called in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php on line 18 and defined in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php:9
+Stack trace:
+#0 C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\control\basico\TesteController.php(18): Acbr->__construct()
+#1 C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiCoreApplication.php(80): TesteController->__construct()
+#2 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(27): Adianti\Core\AdiantiCoreApplication::run()
+#3 C:\Users\tasil\OneDrive\projetos\sursum_dfe\engine.php(79): TApplication::run()
+#4 {main}
+  thrown in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Acbr.php on line 9
+[23-Feb-2021 12:08:17 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 12:08:17 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:08:17 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:10:50 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 13
+[23-Feb-2021 12:10:50 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:10:50 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:12:07 America/Sao_Paulo] PHP Notice:  Undefined index: val_parametro in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\acbr\ParametrosAcbrService.php on line 14
+[23-Feb-2021 12:12:07 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:12:07 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:13:22 America/Sao_Paulo] PHP Warning:  fopen(\0): failed to open stream: Permission denied in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 44
+[23-Feb-2021 12:13:22 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 52
+[23-Feb-2021 12:13:22 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 54
+[23-Feb-2021 12:17:53 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 12:19:29 America/Sao_Paulo] PHP Warning:  fopen(\0): failed to open stream: Permission denied in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 44
+[23-Feb-2021 12:19:29 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 52
+[23-Feb-2021 12:19:29 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 54
+[23-Feb-2021 12:20:53 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 12:26:44 America/Sao_Paulo] PHP Warning:  fopen(\1): failed to open stream: Permission denied in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 44
+[23-Feb-2021 12:26:44 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 52
+[23-Feb-2021 12:26:44 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 54
+[23-Feb-2021 12:30:25 America/Sao_Paulo] PHP Warning:  fopen(\1): failed to open stream: Permission denied in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 44
+[23-Feb-2021 12:30:25 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 52
+[23-Feb-2021 12:30:25 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\Arquivo.php on line 54
+[23-Feb-2021 12:41:23 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:41:23 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:41:59 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:41:59 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:42:41 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:42:41 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:42:45 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:42:45 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:42:53 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:42:53 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 12:43:24 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 12:43:24 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 13:33:55 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 13:33:55 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 19:41:47 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 19:41:47 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 19:52:07 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 19:54:04 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 19:56:00 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 19:57:17 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 19:57:17 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:03:20 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[23-Feb-2021 20:09:59 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:09:59 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:09:59 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:09:59 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:18:51 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:18:51 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:18:51 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:18:51 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:23:28 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:23:28 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 25
+[23-Feb-2021 20:23:28 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:23:28 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:33:11 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 26
+[23-Feb-2021 20:33:11 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 26
+[23-Feb-2021 20:33:11 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:33:11 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:34:22 America/Sao_Paulo] PHP Notice:  Indirect modification of overloaded property Transacoes::$usuario has no effect in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 28
+[23-Feb-2021 20:34:22 America/Sao_Paulo] PHP Warning:  Creating default object from empty value in C:\Users\tasil\OneDrive\projetos\sursum_dfe\app\service\basico\TransacaoService.php on line 28
+[23-Feb-2021 20:34:22 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:34:22 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:34:49 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:34:49 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:43:00 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:43:00 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 20:51:46 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 390
+[23-Feb-2021 20:51:46 America/Sao_Paulo] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\widget\base\TElement.php on line 444
+[23-Feb-2021 21:15:09 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\Users\tasil\OneDrive\projetos\sursum_dfe\lib\adianti\core\AdiantiTemplateParser.php on line 69

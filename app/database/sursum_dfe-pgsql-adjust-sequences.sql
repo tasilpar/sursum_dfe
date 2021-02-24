@@ -1,0 +1,15 @@
+SELECT setval('arquivos_id_seq', coalesce(max(id),0) + 1, false) FROM arquivos;
+SELECT setval('cmds_id_seq', coalesce(max(id),0) + 1, false) FROM cmds;
+SELECT setval('emissores_id_seq', coalesce(max(id),0) + 1, false) FROM emissores;
+SELECT setval('eventos_id_seq', coalesce(max(id),0) + 1, false) FROM eventos;
+SELECT setval('formatos_chave_origem_id_seq', coalesce(max(id),0) + 1, false) FROM formatos_chave_origem;
+SELECT setval('grupos_evento_id_seq', coalesce(max(id),0) + 1, false) FROM grupos_evento;
+SELECT setval('listas_id_seq', coalesce(max(id),0) + 1, false) FROM listas;
+SELECT setval('movtos_evento_doc_fiscal_id_seq', coalesce(max(id),0) + 1, false) FROM movtos_evento_doc_fiscal;
+SELECT setval('msgs_movto_evento_doc_fiscal_id_seq', coalesce(max(id),0) + 1, false) FROM msgs_movto_evento_doc_fiscal;
+SELECT setval('opcoes_lista_id_seq', coalesce(max(id),0) + 1, false) FROM opcoes_lista;
+SELECT setval('origens_id_seq', coalesce(max(id),0) + 1, false) FROM origens;
+SELECT setval('parametros_acbr_id_seq', coalesce(max(id),0) + 1, false) FROM parametros_acbr;
+SELECT setval('pessoas_id_seq', coalesce(max(id),0) + 1, false) FROM pessoas;
+SELECT setval('tipos_comando_id_seq', coalesce(max(id),0) + 1, false) FROM tipos_comando;
+SELECT setval('transacoes_id_seq', coalesce(max(id),0) + 1, false) FROM transacoes;
